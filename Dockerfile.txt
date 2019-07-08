@@ -1,0 +1,4 @@
+FROM python:3
+RUN yum install python-pip
+RUN pip install omdb
+ADD read_omdb.py /
